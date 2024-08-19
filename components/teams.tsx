@@ -13,12 +13,14 @@ export function Teams() {
                 </h1>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                {/*
                 <FadeInBottom>
-                    <Link href="https://sdev.shizen.lol" className="flex p-2 bg-slate-100 rounded-xl justify-between gap-4 items-center">
+                    <Link href="https://dev.shizen.lol" className="flex p-2 bg-slate-100 rounded-xl justify-between gap-4 items-center">
                         <Image src="/icons/sdev.png" width={128} height={128} alt="s-server-developers's icon" className="w-10 h-10 rounded-full"/>
                         <p className="text-2xl opacity-45 font-bold">S-Server-Developers</p>
                     </Link>
                 </FadeInBottom>
+                */}
             </div>
         </div> 
     )
