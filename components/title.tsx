@@ -10,7 +10,7 @@ export function Title() {
             <div>
                 <h1 className="text-4xl font-bold">
                     <span className="text-yellow-300 text-stroke-px text-stroke-black">akikaki</span>.net</h1>
-                <p className="text-2xl mt-1">Hi there :)</p>
+                <p className="text-2xl mt-1">:)</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 <FadeInBottom>

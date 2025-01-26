@@ -16,6 +16,8 @@ const config: Config = {
 			},
 			animation : {
 				"fade-in-bottom": "fade-in-bottom 0.6s ease-out   both",
+				"random-to-white": "random-to-white 1s ease-out",
+				"fade-in-opacity": "fade-in-opacity 2s ease-out both",
 			},
 			keyframes : {
 				"fade-in-bottom": {
@@ -25,6 +27,23 @@ const config: Config = {
 					},
 					to: {
 						transform: "translateY(0)",
+						opacity: "1",
+					},
+				},
+				"random-to-white": {
+					"0%": {
+						color: `hsl(55, 90%, 45%)`
+						
+					},
+					"100%": {
+						color: "#f9fafb",
+					},
+				},
+				"fade-in-opacity": {
+					"0%": {
+						opacity: "0",
+					},
+					to: {
 						opacity: "1",
 					},
 				},
