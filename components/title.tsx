@@ -10,7 +10,7 @@ export function Title() {
             <div>
                 <h1 className="text-4xl font-bold">
                     <span className="text-yellow-300 text-stroke-px text-stroke-black">akikaki</span>.net</h1>
-                <p className="text-2xl mt-1">:)</p>
+                <p className="text-2xl mt-1"> new : my blog</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 <FadeInBottom>
@@ -25,6 +25,10 @@ export function Title() {
                     <Link href="https://github.com/akikaki-bot" aria-label="my github account!" className="flex p-2 transform-gpu transition-all duration-500 hover:shadow-lg hover:bg-purple-50 bg-slate-50 shadow-sm bg-opacity-50 rounded-xl justify-between gap-4 items-center">
                         <Image src="/icons/github.svg" width={24} height={24} alt="github icon" className="w-10 h-10"/>
                         <p className="text-2xl opacity-45">akikaki-bot</p>
+                    </Link>
+                    <Link href="https://blog.akikaki.net" aria-label="my blog!" className="flex p-2 transform-gpu transition-all duration-500 hover:shadow-lg hover:bg-yellow-50 bg-slate-50 shadow-sm bg-opacity-50 rounded-xl justify-between gap-4 items-center">
+                        <Image src="/icons/blog-icon.svg" width={24} height={24} alt="blog icon" className="w-10 h-10"/>
+                        <p className="text-2xl opacity-45">Blog</p>
                     </Link>
                 </FadeInBottom>
             </div>
