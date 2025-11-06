@@ -14,7 +14,7 @@ export function Title() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 <FadeInBottom>
-                    <Link href="https://x.com/aknmni" aria-label="my X account" className="flex p-2 transform-gpu transition-all duration-500 hover:shadow-lg hover:bg-gray-50 bg-slate-50 rounded-xl justify-between gap-4 items-center shadow-sm bg-opacity-80">
+                    <Link href="https://x.com/__ka_akmn" aria-label="my X account" className="flex p-2 transform-gpu transition-all duration-500 hover:shadow-lg hover:bg-gray-50 bg-slate-50 rounded-xl justify-between gap-4 items-center shadow-sm bg-opacity-80">
                         <Image src="/icons/x.svg" width={24} height={24} alt="x (a.k.a twitter) icon" className="w-10 h-10"/>
                         <p className="text-2xl opacity-45">aknmni</p>
                     </Link>
