@@ -13,19 +13,15 @@ export function Teams() {
                     <span className="text-yellow-200 text-stroke-px text-stroke-black">Learning</span> Techs
                 </h1>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 <FadeInBottom>
-                    <Box className="hover:bg-sky-50">
-                        <Image src="/icons/react.svg" width={24} height={24} alt="react native's icon" className="w-10 h-10"/>
-                        <p className="text-2xl opacity-45 ">React Native</p>
-                    </Box>
                     <Box className="hover:bg-orange-50">
                         <Image src="/icons/java.svg" width={24} height={24} alt="the programming language java's icon" className="w-10 h-10"/>
                         <p className="text-2xl opacity-45 ">Java</p>
                     </Box>
-                    <Box className="hover:bg-yellow-50">
-                        <Image src="/icons/python.webp" width={48} height={48} alt="the programming language python's icon" className="w-10 h-10"/>
-                        <p className="text-2xl opacity-45 ">Python</p>
+                    <Box className="hover:bg-orange-100">
+                        <Image src="/icons/zig.svg" width={24} height={24} alt="the programming language zig's icon" className="w-10 h-10"/>
+                        <p className="text-2xl opacity-45 ">Zig</p>
                     </Box>
                 </FadeInBottom>
             </div>

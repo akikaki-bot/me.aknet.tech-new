@@ -19,6 +19,10 @@ export function Skills() {
                         <Image src="/icons/react.svg" width={24} height={24} alt="react's icon" className="w-10 h-10"/>
                         <p className="text-2xl opacity-45 ">React.js</p>
                     </Box>
+                    <Box className="hover:bg-sky-50">
+                        <Image src="/icons/react.svg" width={24} height={24} alt="react native's icon" className="w-10 h-10"/>
+                        <p className="text-2xl opacity-45 ">React Native</p>
+                    </Box>
                     <Box className="hover:bg-purple-50">
                         <Image src="/icons/next.svg" width={24} height={24} alt="next's icon" className="w-10 h-10"/>
                         <p className="text-2xl opacity-45 font-bold">Next.js</p>
@@ -30,6 +34,10 @@ export function Skills() {
                     <Box className="hover:bg-yellow-50">
                         <Image src="/icons/javascript.svg" width={24} height={24} alt="javascript's icon" className="w-10 h-10"/>
                         <p className="text-2xl opacity-45 ">JavaScript</p>
+                    </Box>
+                    <Box className="hover:bg-yellow-50">
+                        <Image src="/icons/python.webp" width={48} height={48} alt="the programming language python's icon" className="w-10 h-10"/>
+                        <p className="text-2xl opacity-45 ">Python</p>
                     </Box>
                     <Box className="hover:bg-green-50">
                         <Image src="/icons/nodejs.svg" width={24} height={24} alt="nodejs's icon" className="w-10 h-10"/>
